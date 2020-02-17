@@ -1,5 +1,2 @@
-function sumTwoNumbers(x = 1, y = 2) {
-	return x + y;
-}
-
-console.log(sumTwoNumbers());
+const arr = [1, 2, 3, 4];
+console.log(arr.includes(1));
