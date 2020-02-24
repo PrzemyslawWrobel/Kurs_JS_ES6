@@ -1,2 +1,11 @@
-const arr = [1, 2, 3, 4];
-console.log(arr.includes(1));
+function showOrderValue() {
+  var orderValu = 100;
+  if (orderValu >= 100) {
+    let newOrderValue = orderValu - orderValu * 0.1;
+    return newOrderValue;
+  }
+
+  console.log(this.newOrderValue);
+}
+
+showOrderValue();
