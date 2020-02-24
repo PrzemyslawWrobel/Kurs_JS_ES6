@@ -1,11 +1,6 @@
-function showOrderValue() {
-  var orderValu = 100;
-  if (orderValu >= 100) {
-    let newOrderValue = orderValu - orderValu * 0.1;
-    return newOrderValue;
-  }
+let price = 199;
+let currency = "PLN";
+let discount = 0.1;
+let label = `Cena wynosi: ${price - price * discount}${currency}`;
 
-  console.log(this.newOrderValue);
-}
-
-showOrderValue();
+console.log(label);
