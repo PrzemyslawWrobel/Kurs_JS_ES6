@@ -1,6 +1,6 @@
-let price = 199;
-let currency = "PLN";
-let discount = 0.1;
-let label = `Cena wynosi: ${price - price * discount}${currency}`;
+let label = `
+Jantar Sp zoo
+ul. Piekarska 
+43-300 Bielsko-Biała`;
 
 console.log(label);
